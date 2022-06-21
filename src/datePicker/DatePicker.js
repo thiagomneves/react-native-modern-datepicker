@@ -1,4 +1,4 @@
-import React, {createContext, useReducer, useContext, useState} from 'react';
+import React, {useReducer, useState} from 'react';
 import {View, StyleSheet} from 'react-native';
 import PropTypes from 'prop-types';
 
