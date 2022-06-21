@@ -3,7 +3,7 @@ import {View, StyleSheet} from 'react-native';
 import PropTypes from 'prop-types';
 
 import {Calendar, SelectMonth, SelectTime} from './components';
-import useCalendar from './useCalendar';
+import {useCalendar, CalendarContext} from './useCalendar';
 import {utils} from '../utils';
 
 const options = {

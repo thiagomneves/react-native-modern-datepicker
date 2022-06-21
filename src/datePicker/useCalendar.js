@@ -5,4 +5,4 @@ const useCalendar = () => {
   return contextValue;
 };
 
-export default useCalendar;
+export {useCalendar, CalendarContext};
